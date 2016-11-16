@@ -15,7 +15,7 @@ Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python
 ```
 $ sudo easy_install pip
 ```
-2.Istall aws command line
+2.Install aws command line
 ```
 $ sudo pip install awscli --ignore-installed six
 ```
@@ -32,7 +32,7 @@ region=us-east-1
 ```
 $ [sudo] pip install virtualenv
 ```
-5.Create a virtual environment for python in any directory(you can put any directory name instead of ENV).
+5.Create a virtual environment for python in any directory(you can put any name instead of ENV).
 ```
 $ virtualenv ENV
 ```
@@ -40,7 +40,7 @@ $ virtualenv ENV
 ```
 $ source ENV/bin/activate
 ```
-7.Install boto3 inside the vietual environment. No need to use sure in a vietual enviroment.
+7.Install boto3 inside the virtual environment. No need to use sudo inside virtual environment.
 ```
 $ pip install boto3
 ```
