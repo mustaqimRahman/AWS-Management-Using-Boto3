@@ -11,15 +11,15 @@ This program can do basic Amazom AWS S3 management tasks, such as - Showing a li
 2.Create aws_access_key_id and aws_secret_access_key. To do so read this [documentation](http://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html)
 
 #Configuration in your PC
-1. Install pip in your machine.
+1.Install pip in your machine.
 ```
 $ sudo easy_install pip
 ```
-2. Istall aws command line
+2.Istall aws command line
 ```
 $ sudo pip install awscli --ignore-installed six
 ```
-3. Configure aws_access_key_id and aws_secret_access_key
+3.Configure aws_access_key_id and aws_secret_access_key
 ```
 $ aws configure 
 ```
@@ -28,25 +28,24 @@ aws_access_key_id = YOUR_KEY
 aws_secret_access_key = YOUR_SECRET
 region=us-east-1
 ```
-4. Install Virtualenv.
+4.Install Virtualenv.
 ```
 $ [sudo] pip install virtualenv
 ```
-5. Create a virtual environment for python in any directory(you can put any directory name instead of ENV).
+5.Create a virtual environment for python in any directory(you can put any directory name instead of ENV).
 ```
 $ virtualenv ENV
 ```
-6. Activate the virtual environment 
+6.Activate the virtual environment 
 ```
 $ source ENV/bin/activate
 ```
-7. Install boto3 inside the vietual environment. No need to use sure in a vietual enviroment.
+7.Install boto3 inside the vietual environment. No need to use sure in a vietual enviroment.
 ```
 $ pip install boto3
 ```
 8.Clone the "AWS_S3_Manager.py" to a directory.
-
-9. Run the file 
+9.Run the file 
 ```
 $ python AWS_S3_Manager.py
 ```
