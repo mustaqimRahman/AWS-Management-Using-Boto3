@@ -8,3 +8,8 @@ This program can do basic Amazom AWS S3 management tasks, such as - Showing a li
 '''
 sudo easy_install pip
 '''
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
