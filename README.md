@@ -5,4 +5,4 @@ This program can do basic Amazom AWS S3 management tasks, such as - Showing a li
 
 #Configuration
 1. Install pip in your terminal
-'sudo easy_install pip'
+'''sudo easy_install pip'''
