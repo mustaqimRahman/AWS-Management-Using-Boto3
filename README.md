@@ -43,4 +43,10 @@ $ source ENV/bin/activate
 ```
 $ pip install boto3
 ```
-8.Clone the 
+8.Clone the "AWS_S3_Manager.py" to a directory.
+9. Run the file 
+```
+$ python AWS_S3_Manager.py
+```
+You are all set to create/delete bucket in s3 and uoload/delete file in s3 bucket.
+
