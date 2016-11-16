@@ -7,6 +7,7 @@ This program can do basic Amazom AWS S3 management tasks, such as - Showing a li
 
 #Access to Amazon AWS 
 1.Create an Amazon AWS account. For students it is recommened to have a AWS Educate account.
+
 2.Create aws_access_key_id and aws_secret_access_key. To do so read this [documentation](http://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html)
 
 #Configuration in your PC
@@ -44,6 +45,7 @@ $ source ENV/bin/activate
 $ pip install boto3
 ```
 8.Clone the "AWS_S3_Manager.py" to a directory.
+
 9. Run the file 
 ```
 $ python AWS_S3_Manager.py
