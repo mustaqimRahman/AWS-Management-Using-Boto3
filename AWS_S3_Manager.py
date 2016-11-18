@@ -138,7 +138,7 @@ def deletefile():
         main()
 
 
-# This is the main function
+# main function
 def main():
     print "What do you want to do(listBucket/createBucket/deleteBucket/uploadFile/deleteFile)"
     print prompt,
